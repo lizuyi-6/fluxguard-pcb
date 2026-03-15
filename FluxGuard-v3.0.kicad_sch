@@ -1,9 +1,9 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20231120) (generator "eeschema" (type iter))
 
+  (version 20231120)
+  (generator "eeschema")
   (uuid e63b8222-9b4f-4c71-a67e-7e6b2b3c1d5f)
-
   (paper "A4")
-
   (title_block
     (title "FluxGuard Deployment Dongle v3.0")
     (date "2026-03-15")
@@ -12,17 +12,5 @@
   )
 
   (lib_symbols)
-
-  (symbol (lib_id "power:+3V3") (at 25.4 20.32 0) (unit 1) (in_bom no) (on_board no) (fields_autoplaced yes)
-    (uuid 11111111-2222-3333-4444-555555555551)
-  )
-
-  (symbol (lib_id "power:GND") (at 25.4 25.4 0) (unit 1) (in_bom no) (on_board no) (fields_autoplaced yes)
-    (uuid 11111111-2222-3333-4444-555555555552)
-  )
-
-  (symbol (lib_id "power:VBUS") (at 15.24 20.32 0) (unit 1) (in_bom no) (on_board no) (fields_autoplaced yes)
-    (uuid 11111111-2222-3333-4444-555555555553)
-  )
 
 )
