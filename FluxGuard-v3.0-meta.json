@@ -1,0 +1,47 @@
+{
+  "board": "FluxGuard Deployment Dongle v3.0",
+  "company": "杭州视界奇点科技有限公司",
+  "date": "2026-03-15",
+  "revision": "3.0",
+  "size": "52mm x 29mm",
+  "layers": 4,
+  "thickness": 1.6mm,
+  "finish": "ENIG",
+  "copper_weight": "1oz (outer) / 0.5oz (inner)",
+  "files": {
+    "schematic": "FluxGuard-v3.0.kicad_sch",
+    "pcb": "FluxGuard-v3.0.kicad_pcb",
+    "project": "FluxGuard-v3.0.kicad_pro",
+    "bom": "FluxGuard-v3.0-bom.csv",
+    "netlist": "FluxGuard-v3.0.net"
+  },
+  "components": {
+    "total": 58,
+    "active": 15,
+    "passive": 43
+  },
+  "interfaces": {
+    "usb": "USB-C 16pin",
+    "uart_target": "2x5pin 2.54mm",
+    "debug": "2x3pin 1.27mm",
+    "oled": "FPC 30pin",
+    "battery": "JST-PH 2pin"
+  },
+  "gpio_mapping": {
+    "I2C_SDA": "GPIO32",
+    "I2C_SCL": "GPIO33",
+    "RGB_DATA": "GPIO25",
+    "BUZZER": "GPIO26",
+    "SEC_IRQ": "GPIO27",
+    "TARGET_TX": "GPIO14",
+    "TARGET_RX": "GPIO12",
+    "WDT_FEED": "GPIO13",
+    "BTN_OK": "GPIO15",
+    "BTN_NEXT": "GPIO4",
+    "BTN_BACK": "GPIO5",
+    "SEC_SDA": "GPIO21",
+    "SEC_SCL": "GPIO22",
+    "USB_TX": "GPIO23",
+    "USB_RX": "RXD0"
+  }
+}

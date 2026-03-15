@@ -1,0 +1,6 @@
+(kicad_project (version 20211014)
+  (project "FluxGuard-v3.0")
+  (project_paths
+    (path "/root/.openclaw/workspace/projects/Networksafe-hardware/kicad/FluxGuard-v3.0.kicad_sch")
+  )
+)

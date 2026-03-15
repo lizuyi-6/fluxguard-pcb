@@ -1,0 +1,30 @@
+Designator,Quantity,Value,Footprint,Manufacturer,MPN,Description
+J1,1,USB_C_Receptacle,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12_2x6_P0.5mm_Horizontal,HRO,TYPE-C-31-M-12,USB-C 16pin Receptacle
+U2,1,CH340N,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,WCH,CH340N,USB to UART Bridge
+U3,1,AMS1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,AMS,AMS1117-3.3,3.3V LDO Regulator
+U4,1,TP4056,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,NanJing TopWay,TP4056,Li-ion Battery Charger
+U5,1,DW01A,Package_TO_SOT_SMD:SOT-23-6,fortune,DW01A,Battery Protection IC
+Q1,1,FS8205A,Package_SO:TSSOP-8_4.4x3mm_P0.65mm,FineSky,FS8205A,Dual N-Channel MOSFET
+U1,1,ESP32-WROOM-32E,RF_Module:ESP32-WROOM-32,Espressif,ESP32-WROOM-32E,WiFi+BT Module
+U6,1,ATECC608A-SSHDA,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,Microchip,ATECC608A-SSHDA,Crypto Authentication
+U7,1,MAX6818,Package_TO_SOT_SMD:SOT-23-5,Maxim,MAX6818,Hardware Watchdog
+DISP1,1,SSD1306_0.96in,Display:OLED_0.96in_128x64_FPC30,Generic,SSD1306,0.96in OLED 128x64
+D1,1,WS2812B-2020,LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm,Worldsemi,WS2812B-2020,RGB LED
+BZ1,1,MLT-8530,Buzzer_Beeper:Buzzer_MLT-8530,Mallory,MLT-8530,Active Buzzer 3V
+SW1,1,BTN_OK,Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm,Generic,K2-1102SP,Push Button 6x6mm
+SW2,1,BTN_NEXT,Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm,Generic,K2-1102SP,Push Button 6x6mm
+SW3,1,BTN_BACK,Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm,Generic,K2-1102SP,Push Button 6x6mm
+TVS1,1,SRV05-4,Package_TO_SOT_SMD:SOT-23-6,YAGEO,SRV05-4,TVS Diode Array ESD Protection
+TVS2,1,SRV05-4,Package_TO_SOT_SMD:SOT-23-6,YAGEO,SRV05-4,TVS Diode Array ESD Protection
+J2,1,TARGET_UART,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,Generic,PH2x5,UART Header 2x5pin
+J3,1,DEBUG,Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical,Generic,PH2x3,Debug Header 2x3pin
+J4,1,BATTERY,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,JST,B2B-PH-K,Battery Connector
+Y1,1,26MHz,Oscillator:Oscillator_SMD_3225-4Pin_3.2x2.5mm,Generic,26MHz,Main Crystal
+Y2,1,32.768kHz,Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm,Generic,32.768kHz,RTC Crystal
+C1-C15,15,100nF,Capacitor_SMD:C_0603_1608Metric,Generic,100nF,Decoupling Capacitor
+C16-C19,4,10uF,Capacitor_SMD:C_0805_2012Metric,Generic,10uF,Filter Capacitor
+C20-C21,2,22uF,Capacitor_SMD:C_1206_3216Metric,Generic,22uF,Power Capacitor
+R1-R10,10,10K,Resistor_SMD:R_0603_1608Metric,Generic,10K,Pull-up/down Resistor
+R11-R12,2,4.7K,Resistor_SMD:R_0603_1608Metric,Generic,4.7K,I2C Pull-up Resistor
+R13-R15,3,100R,Resistor_SMD:R_0603_1608Metric,Generic,100R,Button Series Resistor
+L1,1,2.2uH,Inductor_SMD:L_0805_2012Metric,Generic,2.2uH,Power Filter Inductor
